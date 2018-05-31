@@ -1,0 +1,26 @@
+
+SELECT * 
+FROM  `animales-extintos` 
+LIMIT 0 , 30
+
+
+muestra las columnas que se encuentra en la tabla animales-extintos
+
+SELECT * 
+FROM  `animales-extintos` 
+WHERE nombre =  "perezoso grande colombiano"
+LIMIT 0 , 30
+
+muestra la busqueda que se encuentra en la columna 
+
+
+
+muestra la clasificacion de los animales en via de extincion 
+SELECT clasificacion FROM `animales-extintos` WHERE 1
+
+
+los nombres de los animales extintos 
+SELECT nombre FROM `animales-extintos` WHERE 1
+
+
+
